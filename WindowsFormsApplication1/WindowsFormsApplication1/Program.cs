@@ -14,6 +14,7 @@ namespace WindowsFormsApplication1
         [STAThread]
         static void Main()
         {
+            // Commented in branch01
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
